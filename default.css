@@ -29,19 +29,21 @@ ol,ul,li{
     text-indent: 0;
     list-style-type: none;
 }
+/* ============= */
 a, button{
     border: 0;
     outline: none;
     transition: transform .3s;
     color: inherit;
-    &:hover{
-        cursor: pointer;
-        transform: scale(1.15);
-    }
-    &:active{
-        transform: scale(.98);
-    }
 }
+a:hover, button:hover{
+    cursor: pointer;
+    transform: scale(1.15);
+}
+a:active, button:active{
+    transform: scale(.98);
+}
+/* ============= */
 *{
     box-sizing: border-box; 
     -webkit-box-sizing: border-box; 
