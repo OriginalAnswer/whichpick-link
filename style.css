@@ -259,6 +259,7 @@ header{
             padding-right: 5px;
             font-size: var(--search-fontSize);
             color: var(--fontColr);
+            text-align: center;
         }
         & .offer{
             display: flex;
