@@ -296,14 +296,15 @@ header{
     height: var(--link-height);
     padding: var(--link-padding); 
     
+    background-color: #fff;
     border: 1px rgb(220, 220, 220) solid;
     box-shadow: 0 5px 10px 0 rgba(203, 203, 203, 0.283);    background-color: var(--search-bgclr);
     border-radius: var(--border-radius-15);
     margin-bottom: var(--margin-gap);
 }
-.link :hover{
+.link:hover{
         cursor: pointer;
-        transform: scale(1.02);
+        transform: scale(1.01);
         box-shadow: 0 5px 10px 0 rgba(203, 203, 203, 0.813);    background-color: var(--search-bgclr);
 }
 .link-l{
