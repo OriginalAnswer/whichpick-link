@@ -23,13 +23,13 @@
     --btn-focus-backgroundColor-1: rgb(255, 165, 55);
 
     --nav-height:calc(var(--search-height) + 10px);
-    --offer-backgroundColor:#000000;
+    /* --offer-backgroundColor:#000000;
     --offer-fontColor:#fff;
     --offer-fontSize: 13px;
     --offer-width:120px;
-    --offer-height: calc(var(--search-height) - 3px);
+    --offer-height: calc(var(--search-height) - 3px); */
     
-    --search-height: 3rem;
+    --search-height: 2.5rem;
     --search-icon-border-radius: 50px;
     --search-fontSize: 14px;
     
@@ -111,10 +111,11 @@
 
 /* ============================= */
 body{
-
     background-image: url(background.jpg);
     background-position: center;
     background-size: cover;
+
+    font-family: 'Nanum Gothic',Arial, Helvetica, sans-serif;
 }
 .container{
     display: flex;
@@ -253,17 +254,20 @@ header{
     padding: 5px; 
 }
 .search-icon{
-    padding: 15px 5px 15px 15px;
+    /* padding: 15px 5px 15px 15px; */
+    padding: 0px 5px 0px 15px;
 }
 #input-search{
     height: var(--search-height);
-    width: calc(100% - var(--offer-width) - var(--search-height));
+    /* width: calc(100% - var(--offer-width) - var(--search-height)); */
+    width: 100%;
     padding-right: 5px;
     font-size: var(--search-fontSize);
     color: var(--fontColr);
     text-align: center;
+    font-family: 'Nanum Gothic',Arial, Helvetica, sans-serif;
 }
-.offer{
+/* .offer{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -281,7 +285,7 @@ header{
 .offer:hover{
     background-color:var(--btn-focus-backgroundColor-1);
     color:#ffffff;
-}
+} */
 /* ============================= */
 .links{
     width: 100%;
